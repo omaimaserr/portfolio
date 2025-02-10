@@ -1,0 +1,171 @@
+/* estilos de letras añadidos */
+@font-face {
+    font-family: 'Artifakt';
+    src:url('../fonts/Artifakt.ttf');  
+}
+
+
+
+/* general */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color:rgb(245, 240, 234);
+    font-family: 'Artifakt';
+}
+
+
+
+/* titulo */
+header {
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    color: white;
+    text-align: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+
+.texto-titulo {
+    font-size: 8em;
+    line-height: 1; /* altura de línea */
+    animation: cambiarLetra 3.5s infinite;
+}
+/* animación para cambiar las fuentes del título */
+@keyframes cambiarLetra {
+    0%, 10% {
+        font-family: 'Courier New', Courier, monospace;
+    }
+    11%, 20% {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    21%, 30% {
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    31%, 40% {
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    41%, 50% {
+        font-family: 'Artifakt';
+    }
+    51%, 60% {
+        font-family: 'Times New Roman', Times, serif;
+    }
+    61%, 70% {
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+    71%, 80% {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    81%, 90% {
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    91%, 100% {
+        font-family: 'Alumni';
+    }
+}
+
+
+
+/* barra de navegación */
+.navbar {
+    font-size: 1.35em;
+    font-weight: bold;
+    background-color: rgb(245, 240, 234);
+}
+
+    .navbar-nav {
+        justify-content: center;
+        flex-wrap: nowrap; /* para que los elementos no se envuelvan en varias filas */
+        width: 100%;
+    }
+
+    .nav-item {
+        margin: 0 1.3em;
+    }
+
+
+    /* Efecto hover con transición suave */
+    nav ul li a {
+        transition: transform 0.3s ease-in-out, color 0.3s ease-in-out; /* Transición para el cambio de tamaño y color */
+    }
+
+    nav ul li a:hover {
+        color: rgb(58, 57, 57); /* Cambiar el color al pasar el ratón */
+        transform: scale(1.2); /* Aumentar el tamaño al pasar el ratón */
+    }   
+
+
+
+    /* eliminar las flechas de los menús desplegables */
+    .dropdown-toggle::after {
+        display: none;
+    }
+
+
+
+/* para que aparezca abierto lo primero */
+    #intro {
+        display: block;
+    }
+
+
+
+
+/* introducción */
+main {
+    padding: 2em ;
+}
+            /* ocultar todas las secciones y mostrar la seleccionada */
+            section {
+                display: none;
+            }
+
+            section:target {
+                display: block;
+            } 
+
+
+    /* titulos y párrafos */
+    h1 {
+        font-weight: bold;
+        font-size: 3.2em;
+    }
+
+    h2{
+        font-weight: bold;
+        font-size: 2em;
+        margin-top: 3.5rem;
+        margin-bottom: 2rem;
+    }
+
+    h3 {
+        font-weight: bold;
+        font-size: 1.4em;
+        margin-top: 3.5em;
+        margin-bottom: 2rem;
+    }
+
+    section p {
+        font-size: 1em;
+    }
+
+    section ul li {
+        font-size: 1em;
+    }
+
+
+
+
+/* Footer */ 
+footer {
+    color:rgb(245, 240, 234);
+
+}
+
+
+

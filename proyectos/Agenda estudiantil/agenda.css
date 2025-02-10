@@ -1,0 +1,169 @@
+body {
+    background-color: rgb(212, 225, 199);
+    margin: 0%;
+    font-family: 'Alexandria';
+    color: rgb(28, 86, 60);
+}
+
+@font-face {
+    font-family: 'Dancing Script';
+    src: url('fonts/DancingScript.ttf');
+}
+@font-face {
+    font-family: 'Alexandria';
+    src: url('fonts/Alexandria.ttf');
+}
+@font-face {
+    font-family: 'Alkatra';
+    src: url('fonts/Alkatra.ttf');
+}
+
+.header {
+    font-family: 'Dancing Script';
+    text-align: center;
+    padding: 1.875em;
+    background-color: rgb(28, 86, 60);
+    color: rgb(212, 225, 199);
+    font-size: 2.5em;
+}
+.barranav {
+    background-color: rgb(28, 86, 60);
+    font-family: 'Alkatra';
+    display: flex;
+    justify-content: center;
+}
+.barranav a {
+    margin: 1.5625em;
+    color: rgb(212, 225, 199);
+    font-weight: bold;
+    font-size: 1.25em;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(28, 86, 60);
+}
+a:hover {
+    color: rgb(89, 109, 98);
+}
+
+.titulo {
+    text-align: center;
+    margin-bottom: 1.875em;
+}
+.horario {
+    text-align: center;
+    margin: auto;
+    width: 80%;
+    border-radius: 0.5em;
+    text-align: center;
+    font-size: 1em;
+    width: 75%;
+}
+td, th {
+    border: rgb(255, 255, 255) solid;
+    border-radius: 0.375em;
+}
+
+.diseño {
+    background-color: rgb(122, 154, 139);
+}
+.cliente {
+    background-color: rgb(223, 202, 185);
+}
+.empresa {
+    background-color: rgb(211, 204, 170);
+}
+.servidor {
+    background-color: rgb(176, 211, 233);
+}
+.despliegue {
+    background-color: rgb(214, 203, 224);
+}
+.ingles {
+    background-color: rgb(208, 219, 166);
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 1.25em auto;
+    width: 70%;
+    max-width: 75em;
+}
+.modulo {
+    background-color: rgb(227, 223, 208);
+    border: rgb(204, 204, 204) solid;
+    border-radius: 0.625em;
+    box-shadow: 0 0.25em 0.5em rgba(0, 0, 0, 0.1);
+    padding: 1.25em;
+    width: 40%;
+    margin-bottom: 1.25em;
+    text-align: center;
+    transition: transform 0.3s, background-color 0.3s;
+}
+.modulo:hover {
+    background-color: rgb(209, 209, 209);
+    transform: translateY(-0.3125em);
+}
+
+.modulo h3 {
+    margin: 0 0 0.625em 0;
+    font-size: 1.2em;
+}
+
+.modulo p {
+    font-size: 1em;
+    color: rgb(102, 102, 102);
+}
+@media (max-width: 48em) {
+    .modulo {
+        width: 100%;
+    }
+}
+
+.profesores {
+    text-align: center;
+}
+
+.contact-form {
+    margin: auto;
+    background-color: rgb(213, 228, 232);
+    border-radius: 0.625em;
+    box-shadow: 0 0.25em 0.625em rgba(0, 0, 0, 0.2);
+    padding: 1.875em;
+    width: 50em;
+    text-align: center;
+}
+label {
+    display: block; 
+    margin-top: 0.9375em;
+    margin-bottom: 0.3125em;
+    color: rgb(85, 85, 85);
+}
+textarea {
+    width: 100%; 
+    padding: 0.625em;
+    border: 1px solid rgb(204, 204, 204);
+    border-radius: 0.3125em;
+    margin-bottom: 0.9375em;
+    box-sizing: border-box; 
+}
+
+footer {
+    margin-top: 5.625em;
+    font-size: 0.9375em;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+.copyright {
+    font-style: italic;
+    font-size: 0.625em;
+}
+
+
+
+
+
+

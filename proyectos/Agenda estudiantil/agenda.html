@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="miembros" content="Omaima Serroukh">
+    <link rel="stylesheet" href="agenda.css">
+    <title>Agenda</title>
+    <link rel="icon" type="image/png" href="favicon/agenda.png"> </link>
+</head>
+<body>
+
+    <div class="header">
+        <h1>Agenda estudiantil</h1>
+    </div>
+
+    <div class="barranav">
+        <a href="#horario">HORARIO</a>
+        <a href="#calendario">CALENDARIO</a>
+        <a href="#modulos">MÓDULOS</a>
+        <a href="#profesorado">PROFESORADO</a>
+        <a href="#contacto">CONTACTO</a>        
+    </div>
+
+    <br><br>
+
+    <!-- Horario -->
+    <h1 class="titulo"> Horario</h1>
+    <div class="horario" id="horario">
+            <table>
+                <tr>
+                    <th>Hora</th>
+                    <th>Lunes</th>
+                    <th>Martes</th>
+                    <th>Miércoles</th>
+                    <th>Jueves</th>
+                    <th>Viernes</th>
+                </tr>
+                <tr>
+                    <td>8:30 - 9:20</td>
+                    <td class="diseño" rowspan="2"><a href="#diseño">Diseño de Interfaces Web</a> <br><a href="#profCarmen">Carmen Armijo</a></td>
+                    <td class="despliegue"><a href="#despliegue">Despliegue de Aplicaciones Web</a> <br><a href="#profLeticia">Leticia Riaza</a></td>
+                    <td class="cliente" rowspan="2"><a href="#cliente">Desarrollo Web en Entorno Cliente</a> <br><a href="#profMigAng">Miguel Ángel Cruzado</a></td>
+                    <td class="diseño" rowspan="2"><a href="#diseño">Diseño de Interfaces Web</a> <br><a href="#profCarmen">Carmen Armijo</a></td>
+                    <td class="servidor" rowspan="2"><a href="#servidor">Desarrollo Web en Entorno Servidor</a> <br><a href="#profAlberto">Alberto López</a></td>
+                </tr>
+                <tr>
+                    <td>9:25 - 10:15</td>
+                    <td class="empresa" rowspan="2"><a href="#empresa">Empresa e Iniciativa Emprendedora</a> <br><a href="#profPilar">Pilar Álvarez</a></td>
+                </tr>
+                <tr>
+                    <td>10:20 - 11:10</td>
+                    <td class="servidor"><a href="#servidor">Desarrollo Web en Entorno Servidor</a> <br><a href="#profAlberto">Alberto López</a></td>
+                    <td class="diseño"><a href="#diseño">Diseño de Interfaces Web</a> <br><a href="#profCarmen">Carmen Armijo</a></td>
+                    <td class="despliegue"><a href="#despliegue">Despliegue de Aplicaciones Web</a> <br><a href="#profLeticia">Leticia Riaza</a></td>
+                    <td class="cliente"><a href="#cliente">Desarrollo Web en Entorno Cliente</a> <br><a href="#profMigAng">Miguel Ángel Cruzado</a></td>
+                </tr>
+                <tr>
+                    <td>11:10 - 11:40</td>
+                    <td class="descanso" colspan="5">DESCANSO</td>
+                </tr>
+                <tr>
+                    <td>11:40 - 12:30</td>
+                    <td class="servidor"><a href="#servidor">Desarrollo Web en Entorno Servidor</a> <br><a href="#profAlberto">Alberto López</a></td>
+                    <td class="ingles"><a href="#ingles">Inglés</a> <br><a href="#profElena">Elena Menchero</a></td>
+                    <td class="diseño"><a href="#diseño">Diseño de Interfaces Web</a> <br><a href="#profCarmen">Carmen Armijo</a></td>
+                    <td class="despliegue"><a href="#despliegue">Despliegue de Aplicaciones Web</a> <br><a href="#profLeticia">Leticia Riaza</a></td>
+                    <td class="cliente"><a href="#cliente">Desarrollo Web en Entorno Cliente</a> <br><a href="#profMigAng">Miguel Ángel Cruzado</a></td>
+                </tr>
+                <tr>
+                    <td>12:35 - 13:25</td>
+                    <td class="cliente" rowspan="2"><a href="#cliente">Desarrollo Web en Entorno Cliente</a> <br><a href="#profMigAng">Miguel Ángel Cruzado</a></td>
+                    <td class="servidor" rowspan="2"><a href="#servidor">Desarrollo Web en Entorno Servidor</a> <br><a href="#profAlberto">Alberto López</a></td>
+                    <td class="servidor" rowspan="2"><a href="#servidor">Desarrollo Web en Entorno Servidor</a> <br><a href="#profAlberto">Alberto López</a></td>
+                    <td class="ingles"><a href="#ingles">Inglés</a> <br><a href="#profElena">Elena Menchero</a></td>
+                    <td class="despliegue" rowspan="2"><a href="#despliegue">Despliegue de Aplicaciones Web</a> <br><a href="#profLeticia">Leticia Riaza</a></td>
+                </tr>
+                <tr>
+                    <td>13:30 - 14:20</td>
+                    <td class="empresa"><a href="#empresa">Empresa e Iniciativa Emprendedora</a> <br><a href="#profPilar">Pilar Álvarez</a></td>
+                </tr>
+            </table>
+        </div>
+    <br><br>
+
+
+    <!-- Calendario -->
+    <div class="calendario" id="calendario"></div>
+    
+    <h1 class="titulo"><a href="calendario/calendario.html">Calendario</a> </h1>
+
+    
+
+<br><br>
+
+    <!-- Módulos -->
+        <div class="modulos" id="modulos">
+            <h1 class="titulo"> Módulos </h1>
+            <div class="container">
+                <div class="modulo" id="diseño">
+                    <h3>Diseño de Interfaces Web</h3>
+                    <p>En esta asignatura se estudian las técnicas de diseño y desarrollo de interfaces web interactivas.</p>
+                    <p>Profesor: <a href="#profCarmen">María Carmen Armijo</a></p>
+                </div>
+                <div class="modulo" id="despliegue">
+                    <h3>Despliegue de Aplicaciones Web</h3>
+                    <p>Esta asignatura trata sobre el desarrollo de aplicaciones web dinámicas utilizando tecnologías modernas.</p>
+                    <p>Profesor: <a href="#profLeticia">María Leticia Riaza</a></p>
+                </div>
+                <div class="modulo" id="servidor">
+                    <h3>Desarrollo Web en Entorno Servidor</h3>
+                    <p>En este módulo se centra en el desarrollo de la parte del servidor de aplicaciones web.</p>
+                    <p>Profesor: <a href="#profAlberto">José Alberto López</a></p>
+                </div>
+                <div class="modulo" id="cliente">
+                    <h3>Desarrollo Web en Entorno Cliente</h3>
+                    <p>Aquí se estudia el desarrollo del cliente de una aplicación web, cómo interactuar con servidores y APIs.</p>
+                    <p>Profesor: <a href="#profMigAng">Miguel Ángel Cruzado</a></p>
+                </div>
+                <div class="modulo" id="empresa">
+                    <h3>Empresa e Iniciativa Emprendedora</h3>
+                    <p>Este módulo cubre temas de emprendimiento y la creación de empresas en el sector tecnológico.</p>
+                    <p>Profesor: <a href="#profPilar">María Pilar Alvarez</a></p>
+                </div>
+                <div class="modulo" id="ingles">
+                    <h3>Inglés</h3>
+                    <p>En este módulo se estudia el ingles técnico en función al grado superior </p>
+                    <p>Profesor: <a href="#profElena">Elena Menchero</a></p>
+                </div>
+
+            </div>
+        </div>
+            
+    <br><br>
+
+        <!-- Profesorado -->
+        <div class="section" id="profesorado">
+            <h1 class="titulo"> Profesorado </h1>
+            <div class="profesores">
+                <div class="profe" id="profCarmen">
+                    <h3>María Carmen Armijo</h3>
+                    <p>Especialista en desarrollo de interfaces web y diseño interactivo</p>
+                </div>
+                <div class="profe" id="profElena">
+                    <h3>Elena Menchero</h3>
+                    <p>Profesor de desarrollo de aplicaciones web dinámicas con amplia experiencia en frameworks modernos</p>
+                </div>
+                <div class="profe" id="profAlberto">
+                    <h3>José Alberto López</h3>
+                    <p>Experto en desarrollo de servidores y arquitecturas web escalables</p>
+                </div>
+                <div class="profe" id="profMigAng">
+                    <h3>Miguel Ángel cruzado</h3>
+                    <p>Docente en tecnologías de cliente y desarrollo de interfaces interactivas con JavaScript</p>
+                </div>
+                <div class="profe" id="profPilar">
+                    <h3>María Pilar Álvarez</h3>
+                    <p>Especialista en emprendimiento y gestión de empresas tecnológicas</p>
+                </div>
+                <div class="profe" id="profLeticia">
+                    <h3>María Leticia Riaza</h3>
+                    <p>Especialista en la lengua inglesa</p>
+                </div>
+            </div>
+        </div>
+    
+
+        <br><br>
+
+
+    <!-- Contacto -->
+    <div class="contacto" id="contacto">
+        <h1 class="titulo"> Contacto</h1>
+        <form class="contact-form">
+            <label for="name">Nombre</label>
+            <input type="text" id="nombre" name="nombre" placeholder="NOMBRE" required>
+            <br>
+            <label for="email">Correo Electrónico</label>
+            <input type="email" id="email" name="email" placeholder="CORREO ELECTRÓNICO" required>
+            <br>
+            <label for="message">Mensaje</label>
+            <textarea id="message" name="message" placeholder="MENSAJE" rows="6"></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+    
+
+    <footer>
+        <p>iestetuan@tetuan.com</p>
+        <p class="copyright">© 2024 Madrid - Todos los derechos reservados</p>
+    </footer>
+</body>
+</html>
